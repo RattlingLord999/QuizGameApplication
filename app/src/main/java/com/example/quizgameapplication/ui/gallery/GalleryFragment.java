@@ -62,7 +62,7 @@ public class GalleryFragment extends Fragment {
 
         Log.i(TAG, historStringModels.get(0).getYours());
 
-        MyAdapter myAdapter=new MyAdapter(view.getContext(),historStringModels);
+        MyAdapter.java myAdapter=new MyAdapter.java(view.getContext(),historStringModels);
         recyclerView.setAdapter(myAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(view.getContext()));
 

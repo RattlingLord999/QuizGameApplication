@@ -8,15 +8,15 @@ import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
 
-public class ShowResult extends Fragment {
+public class Helper extends Fragment {
 
-    public ShowResult() {
+    public Helper() {
         // Required empty public constructor
     }
 
     TextView t;
-    public static ShowResult newInstance() {
-        return new ShowResult();
+    public static Helper newInstance() {
+        return new Helper();
     }
 
     @Override
